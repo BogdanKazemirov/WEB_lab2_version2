@@ -37,3 +37,13 @@ a:hover {
     color: white;
 }
 
+.scale:hover {
+    transform: scale(1.3, 1.3);
+    transition: 2s;
+}
+
+.rotate:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+
