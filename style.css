@@ -46,4 +46,35 @@ a:hover {
     transform: rotateY(360deg);
     transition: 2s;
 }
+.product {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #c0c0c0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+	margin-bottom: 20px;
+    /*width: 332px;*/
+}
 
+.odegda{
+    height: auto;
+	max-width: 100%;
+}
+
+.info {
+    color: red;
+}
+
+@media (max-width:767px){
+    #block{
+        display: none;
+    }
+}
+
+@media (min-width:768px){
+    #block1{
+        display: none;
+    }
+}
