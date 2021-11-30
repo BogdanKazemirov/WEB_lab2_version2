@@ -71,10 +71,44 @@ a:hover {
     #block{
         display: none;
     }
+
+    body{
+        background-color: orange;
+    }
+
+    .rotate {
+        transform:rotateX(360deg) ;
+        transition: 2s;
+    }
+
+    #container{
+        margin-top: 0px!important;
+    }
+
+    h2{
+        color: black !important;
+    }
+
+    #a1 {
+        background-color: black !important;
+    }
+
+    label {
+        color: black !important;
+    }
+    
+    #col{
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 @media (min-width:768px){
     #block1{
         display: none;
     }
+
 }
+
+    
