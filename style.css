@@ -46,6 +46,7 @@ a:hover {
     transform: rotateY(360deg);
     transition: 2s;
 }
+
 .product {
 	background: #fff none repeat scroll 0 0;
 	border: 1px solid #c0c0c0;
@@ -67,7 +68,71 @@ a:hover {
     color: red;
 }
 
+@media (max-width:1024px){
+    body{
+        background-color: rgb(20, 151, 37);
+    }
+    
+    #col{
+        display: flex;
+        justify-content: center;
+    }
+
+    #a1{
+        background-color: yellow !important;
+    }
+
+    h2{
+        color: yellow !important;
+    }
+    
+    label{
+        color: yellow !important;
+    }
+
+    .rotate {
+        transform:rotateX(360deg) ;
+        transition: 2s;
+    }
+}
+
+ @media(min-width:768px){
+     #block1{
+         display: none;
+     }
+ }
+
 @media (max-width:767px){
+    #block{
+        display: none;
+    }
+
+    body{
+        background-color: rgb(20, 20, 151);
+    }
+    
+    #col{
+        display: flex;
+        justify-content: center;
+    }
+
+    #a1{
+        background-color: blueviolet !important;
+    }
+
+    h2{
+        color: blueviolet !important;
+    }
+    label{
+        color: blueviolet !important;
+    }
+    .rotate {
+        transform:rotateX(360deg) ;
+        transition: 2s;
+    }
+}
+
+@media (max-width:320px){
     #block{
         display: none;
     }
@@ -101,14 +166,7 @@ a:hover {
         display: flex;
         justify-content: center;
     }
-
 }
 
-@media (min-width:768px){
-    #block1{
-        display: none;
-    }
-
-}
 
     
