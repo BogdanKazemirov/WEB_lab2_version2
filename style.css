@@ -80,6 +80,7 @@ a:hover {
 
     #a1{
         background-color: yellow !important;
+        border: 1px solid yellow !important;
     }
 
     h2{
@@ -100,6 +101,27 @@ a:hover {
      #block1{
          display: none;
      }
+
+     header {
+        position: fixed;
+        width: 100%;
+        z-index: 5;
+    }
+    
+    content{
+      position: relative;
+      top: 80px;
+    }
+
+    #block{
+        position: relative;
+    }
+
+    .footer{
+        position: relative;
+        margin-top: 100px !important;
+    }
+
  }
 
 @media (max-width:767px){
@@ -118,6 +140,8 @@ a:hover {
 
     #a1{
         background-color: blueviolet !important;
+        border: 1px solid blueviolet !important;
+
     }
 
     h2{
@@ -156,6 +180,7 @@ a:hover {
 
     #a1 {
         background-color: black !important;
+        border: 1px solid black !important;
     }
 
     label {
